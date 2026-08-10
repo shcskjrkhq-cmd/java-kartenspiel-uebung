@@ -1,0 +1,15 @@
+# Kompilierte Java-Dateien
+*.class
+out/
+bin/
+target/
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS
+.DS_Store
