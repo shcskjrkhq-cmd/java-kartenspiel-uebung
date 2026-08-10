@@ -16,17 +16,17 @@ public class HalloJava {
 
     static String begruessung(String name, int alter) {
         // TODO (a): Text zusammensetzen mit + und zurueckgeben
-        return "";
+        return "Hallo " + name + ", du bist " + alter + " Jahre alt.";
     }
 
     static int quadrat(int x) {
         // TODO (b)
-        return 0;
+        return x*x;
     }
 
     public static void main(String[] args) {
         // c) Freies Ausprobieren - hier darfst du alles aendern:
-        System.out.println("Mein erstes Java-Programm laeuft!");
+        System.out.println("Mein erstes Java-Programm laeuft?");
 
         // ---- Selbsttest (nicht aendern) ----
         pruef("a) begruessung", begruessung("Paul", 22).equals("Hallo Paul, du bist 22 Jahre alt."));
